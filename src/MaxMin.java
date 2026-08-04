@@ -12,7 +12,11 @@ public class MaxMin {
                     arr[j+1]=sort;
                 }
             }
+
         }
+        System.out.println("min:"+arr[0]);
+        System.out.println("max:"+arr[arr.length-1]);
         System.out.println("Sorted array is:"+ Arrays.toString(arr));
+
     }
 }
